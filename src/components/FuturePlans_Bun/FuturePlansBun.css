@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 1024px) {
+*.main-container {
+  width: 900px;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+}}
+@media screen and (min-width: 300px) {
+  *.main-container {
+    width: 400px;
+    height: 200px;
+  
+    display: flex;
+    align-items: center;
+  }}
+
+
+
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.all-pages-container {
+  height: 100%;
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.arrow {
+  cursor: pointer;
+}

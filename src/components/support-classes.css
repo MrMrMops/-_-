@@ -1,6 +1,10 @@
-.h-500 {
-    height: 500px;
-}
+@media screen and (min-width: 1024px) {
+    .h-500 {
+        height: 600px;
+
+    }
+
+}   
 #apple {
     background-color: black;
 }
